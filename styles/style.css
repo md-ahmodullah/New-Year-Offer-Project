@@ -169,3 +169,139 @@ body{
     text-align: center;
     margin-top: 40px;
 }
+
+/* Coming Soon section style */
+.coming-soon-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coming-soon-content{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.coming-soon-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.coming-soon-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+}
+.coming-soon-content p, .content-with-image p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+.ellipse-image{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse-image img{
+    width: calc(100% - 70px);
+    border: 15px solid red;
+    border-radius: 50%;
+    padding: 20px;
+}
+.content-with-image{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 35px;
+}
+.content-with-image h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+}
+
+.content-with-image image{
+    width: 25%;
+    border: 2px solid blue;
+}
+
+/* Holiday Sale section start */
+.holiday-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.holiday-text-content{
+    width: 1068px;
+    height: 260px;
+}
+.holiday-text-content h4{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.holiday-text-content h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.holiday-text{
+    color: red;
+}
+.holiday-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-container{
+    width: 1320px;
+    height: 732.07px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+
+.image-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.image-content img{
+    width: 30%;
+}
