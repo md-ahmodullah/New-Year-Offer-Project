@@ -11,7 +11,7 @@ body{
 
 /* banner section style */
 .banner-container{
-    width: 1320px;
+    max-width: 1320px;
     min-height: 600px;
     margin: 20px auto 120px;
     background-image: url(../assets/images/Banner\ Image.png);
@@ -20,6 +20,7 @@ body{
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,4 +38,91 @@ body{
     font-size: 72px;
     font-weight: 900;
     margin-top: 10px;
+}
+
+/* 65% OFF section style */
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.second-section-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* midnight party style */
+.midnight-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto 120px;
+    background-image: url(../assets/images/Vectorrr.png);
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.midnight-content{
+    width: 50%;
+}
+.midnight-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.midnight-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+.midnight-content h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 32px;
+}
+.midnight-image{
+    width: 30%;
 }
