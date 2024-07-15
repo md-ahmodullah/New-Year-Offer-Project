@@ -347,3 +347,117 @@ body{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+/* footer section style */
+.newsletter-container{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 0 auto 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter{
+    width: 896px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.newsletter img{
+    width: 80px;
+    height: 80px;
+}
+
+#center-text{
+    text-align: center;
+}
+
+.complex-field{
+    display: flex;
+    gap: 0;
+}
+
+.email{
+    border-radius: 50px 0px 0px 50px;
+    padding: 12px 20px;
+    border: none;
+    background-color: white;
+    width: 350px;
+}
+
+.subscribe{
+    border-radius: 0px 50px 50px 0px;
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    width: 120px;
+}
+
+/* footer section start */
+.footer{
+    width: 1520px;
+    height: 609px;
+    margin: 0 auto;
+    background: rgb(7, 2, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+}
+
+.contact-info{
+    width: 1185px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adress{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone, .website{
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon{
+    text-align: center;
+}
+
+.social-icon img{
+    width: 55px;
+    height: 55px;
+}
+
+.disclaimer{
+    display: flex;
+    justify-content: space-between;
+}
